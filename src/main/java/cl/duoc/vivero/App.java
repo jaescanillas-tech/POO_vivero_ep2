@@ -31,7 +31,6 @@ public class App extends Application {
         stage.setTitle("Vivero Hojas del Sur");
         stage.setScene(new Scene(root));
         MainController controller = loader.getController();
-        controller.inicializar();
         stage.show();
 
     }
